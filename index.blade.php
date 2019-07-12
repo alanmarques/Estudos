@@ -6,7 +6,7 @@ Séries
 
 @section('conteudo')
 <div class="alert alert-success">
-{{ session('$mensagem') }}
+{{ $mensagem }}
 </div>
 
         <a href="/series/criar" class="btn btn-dark mb-2">Adicionar</a>
